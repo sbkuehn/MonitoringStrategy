@@ -1,1 +1,1 @@
-# MonitoringStrategy
+# Monitoring Strategy
