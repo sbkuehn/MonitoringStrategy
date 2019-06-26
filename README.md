@@ -11,7 +11,7 @@ Files/Folders for this Repository:
 2) **accessModes.md** - describes each access mode for a Log Analytics workspace and walks through use cases.
 3) **enableResourceCentric.ps1** - PowerShell code to check access mode, enable resource centric on 1 Log Analytics Workspace, and enable on all Log Analytics Workspaces within a subscription.
 4) **comparingLogAnalyticsAccessModes.pdf** - a breakdown of when to choose which access mode.
-5) **strategy.md** - a go forward strategy with ideas on how to structure the amount of workspaces within an EA for daily monitoring tasks.
+5) **strategy.md** - a go forward strategy with ideas on how to structure the amount of workspaces within each subscription for daily monitoring tasks.
 <br><br>Links:</b>
 <br><a href="https://docs.microsoft.com/en-us/azure/azure-monitor/platform/manage-access">Managing Access to Log Analytics</a>
 <br><a href="https://azure.microsoft.com/en-us/blog/transforming-azure-monitor-logs-for-devops-granular-access-control-and-imporved-azure-integration/">Azure Monitor Logs - Granular Access Control and Improved Azure Integration</a>
