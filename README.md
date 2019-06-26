@@ -7,7 +7,10 @@ All rights reserved. Sample scripts/code provided herein are not supported under
 <br>
 # Monitoring Strategy
 Files/Folders for this Repository:
-1) **README.md** - markdown file that contains all information for repo (files, folders, instructions). 
+1) **README.md** - markdown file that contains all information for repo. 
 2) **accessModes.md** - describes each access mode for a Log Analytics workspace and walks through use cases.
 3) **enableResourceCentric.ps1** - PowerShell code to check access mode, enable resource centric on 1 Log Analytics Workspace, and enable on all Log Analytics Workspaces within a subscription.
 4) **comparingLogAnalyticsAccessModes.pdf** - a breakdown of when to choose which access mode.
+<br><br><br>Links:</b>
+<a href="https://docs.microsoft.com/en-us/azure/azure-monitor/platform/manage-access">Managing Access to Log Analytics</a>
+<a href="https://azure.microsoft.com/en-us/blog/transforming-azure-monitor-logs-for-devops-granular-access-control-and-imporved-azure-integration/">Azure Monitor Logs - Granular Access Control and Improved Azure Integration</a>
