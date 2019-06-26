@@ -10,4 +10,4 @@ Files/Folders for this Repository:
 1) **README.md** - markdown file that contains all information for repo (files, folders, instructions). 
 2) **accessModes.md** - describes each access mode for a Log Analytics workspace and walks through use cases.
 3) **enableResourceCentric.ps1** - PowerShell code to check access mode, enable resource centric on 1 Log Analytics Workspace, and enable on all Log Analytics Workspaces within a subscription.
-4) **workspacevsResourceAccessModes.md** - a breakdown of when to choose which access mode.
+4) **comparingLogAnalyticsAccessModes.pdf** - a breakdown of when to choose which access mode.
