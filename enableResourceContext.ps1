@@ -14,11 +14,11 @@ business information, or other pecuniary loss) arising out of the use of or inab
 documentation, even if Microsoft has been advised of the possibility of such damages.
 #>
 
-# Checks all existing Log Analytics workspaces to determine if they have been configured with a resource centric access mode.
+# Checks all existing Log Analytics workspaces to determine if they have been configured with a resource context access mode.
 Get-AzResource -ResourceType Microsoft.OperationalInsights/workspaces -ExpandProperties `
 | foreach {$_.Name + ": " + $_.Properties.features.enableLogAccessUsingOnlyResourcePermissions}
 
-# Configures 1 Log Analytics workspace in a resource centric access mode.
+# Configures 1 Log Analytics workspace in a resource context access mode.
 $workspaceName = "{Log Analytics Workspace Name}"
 $workspace = Get-AzResource -Name $workspaceName -ExpandProperties
 if ($workspace.Properties.features.enableLogAccessUsingOnlyResourcePermissions -eq $null) 
