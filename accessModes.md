@@ -1,6 +1,6 @@
 # Access Modes 
 This new feature refers to how users access Log Analytics workspaces in each environment. Customers are now able to define the 
-scope of data users can access. As of March 2019, there are 2 different Access Modes: <i>Workspace-centric</i> and <i>Resource-centric</i>.
+scope of data users can access. As of March 2019, there are 2 different Access Modes: <i>workspace-context</i> and <i>resource-context</i>.
 
 **Workspace-context:**
 In this mode, a user can view all logs in whatever workspace that they hold Reader permissions. Queries in this mode are scoped
