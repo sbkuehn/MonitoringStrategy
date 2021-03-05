@@ -27,7 +27,7 @@ else
     { $workspace.Properties.features.enableLogAccessUsingOnlyResourcePermissions = $true }
 Set-AzResource -ResourceId $workspace.ResourceId -Properties $workspace.Properties -Force
 
-# Configures all Log Analytics workspaces in a resource centric access mode.
+# Configures all Log Analytics workspaces in a resource context access mode.
 Get-AzResource -ResourceType Microsoft.OperationalInsights/workspaces -ExpandProperties | foreach {
 if ($_.Properties.features.enableLogAccessUsingOnlyResourcePermissions -eq $null) 
     { $_.Properties.features | Add-Member enableLogAccessUsingOnlyResourcePermissions $true -Force }
