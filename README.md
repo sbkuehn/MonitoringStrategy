@@ -13,5 +13,5 @@ Files/Folders for this Repository:
 4) **comparingLogAnalyticsAccessModes.pdf** - a breakdown of when to choose which access mode.
 5) **strategy.md** - a go forward strategy with ideas on how to structure the amount of workspaces within each subscription for daily monitoring tasks.
 <br><br>Links:</b>
-<br><a href="https://docs.microsoft.com/en-us/azure/azure-monitor/platform/manage-access">Managing Access to Log Analytics</a>
-<br><a href="https://azure.microsoft.com/en-us/blog/transforming-azure-monitor-logs-for-devops-granular-access-control-and-imporved-azure-integration/">Azure Monitor Logs - Granular Access Control and Improved Azure Integration</a>
+<br><a href="https://docs.microsoft.com/azure/azure-monitor/platform/manage-access?WT.mc_id=ept-0000-shkuehn">Managing Access to Log Analytics</a>
+<br><a href="https://azure.microsoft.com/blog/transforming-azure-monitor-logs-for-devops-granular-access-control-and-imporved-azure-integration/?WT.mc_id=ept-0000-shkuehn">Azure Monitor Logs - Granular Access Control and Improved Azure Integration</a>
