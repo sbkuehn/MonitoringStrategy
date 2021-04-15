@@ -9,7 +9,7 @@ scope. For example, if you select Logs from the Azure Monitor menu in the Azure 
 method of viewing logs.
 <br><i>USE CASES:</i> Central IT, Operations
 
-**Resource-ccontext:**
+**Resource-context:**
 When users access the workspace for a particular resource, such as when you select Logs from a resource menu in the Azure 
 portal, you can view logs for only that resource in all tables that you have access to. Queries in this mode are scoped to only
 data associated with that resource. This mode also enables granular role-based access control (RBAC).
